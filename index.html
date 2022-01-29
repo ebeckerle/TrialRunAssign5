@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Launch Checklist Form</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <script src="script.js"></script>
+        <script src="scriptHelper.js"></script>
+    </head>
+
+
+    <body>
+
+        <h1>Launch Checklist Form</h1>
+        
+        <div class="container">
+
+        </div>
+
+        <div class="container">
+            <form>
+                <label>Pilot Name<input name="pilot" type="text"/></label>
+                <label>Co-pilot Name<input name="co-pilot" type="text"/></label>
+                <label>Fuel Level (L)<input name="fuelLevel" type="number"/></label>
+                <label>Cargo Mass (kg)<input name="cargoMass" type="number"/></label>
+
+                <input id="submitButton" name="Submit" type="submit" value="Submit"/>
+            </form>
+
+        </div>
+
+        <div class="container" id="faultyItems">
+            <h2 id="launchStatus">Awaiting Information Before Launch</h2>
+
+            <ol>
+                <li id="pilotStatus"></li>
+                <li id="copilotStatus"></li>
+                <li id="fuelStatus"></li>
+                <li id="cargoStatus"></li>
+            </ol>
+        </div>
+
+    </body>
+</html>

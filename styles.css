@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    align-items: center;
+}
+div.container {
+    padding: 22px;
+    margin: 22px;
+    border-width: 2px;
+    border-color: black;
+    border-style: outset;
+    background-color: lightgray;
+}
+
+form {
+    align-content: center;
+
+
+}
+
+form label {
+    margin: 10px;
+    display: table;
+
+
+}
+
+form label input {
+    padding: 2px;
+    margin: 2px;
+}
+
+input#submitButton {
+    background-color: green;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    font-family: sans-serif;
+    color: white;
+    padding: 6px 18px;
+    
+}
