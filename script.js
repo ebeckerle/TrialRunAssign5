@@ -82,6 +82,7 @@ window.addEventListener("load", function(){
                 console.log("Shuttle not ready for launch");
             };
             if (validatedForm ==='shuttle is ready for liftoff'){
+                const shuttleStatus = document.getElementById("faultyItems");
                 shuttleStatus.innerHTML = `
                     <h2 id="launchStatus">Shuttle is ready for launch</h2>
                         <ol>
